@@ -65,7 +65,7 @@ holdScore.addEventListener("click", function(){
         //přidání nadpisu s výhercem
         var board = document.querySelector(".board")
         var winnerHeading = document.createElement("h1")
-        winnerHeading.textContent = "Vyhrál hráč " + activePlayer
+        winnerHeading.textContent = "Vyhrál hráč " + (+activePlayer + 1)
         winnerHeading.style.padding = "1em"
 
         document.body.insertBefore (winnerHeading, board)
