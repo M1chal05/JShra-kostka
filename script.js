@@ -24,7 +24,7 @@ var rollDiceBtn = document.getElementById("btn1")
 document.querySelector("img").style.visibility = "hidden"
 
 rollDiceBtn.addEventListener("click", rollDice)
-
+ 
 function rollDice(){
     let dice = Math.ceil(Math.random()*6)
     document.querySelector("img").style.visibility = "visible"
