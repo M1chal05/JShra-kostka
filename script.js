@@ -69,7 +69,7 @@ holdScore.addEventListener("click", function(){
         winnerHeading.style.padding = "1em"
 
         document.body.insertBefore (winnerHeading, board)
-        alert("Vyhrál hráč " + activePlayer)
+        alert("Vyhrál hráč " + activePlayer + 1)
     }
     else{
         nextPlayer()
